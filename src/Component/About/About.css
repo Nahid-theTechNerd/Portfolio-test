@@ -1,0 +1,19 @@
+#about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 80px;
+
+}.card{
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px; 
+}

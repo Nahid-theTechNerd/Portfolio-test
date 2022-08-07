@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.title{
+    font-family: 'Imperial Script', cursive;
+    font-size: 32px;
+}
+
+nav> ul {
+    display : flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > ul > li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color : rgba(0, 0, 0, 0.80);
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+button {
+    background-color: #FCC028;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+}
+
+button> a {
+    color : white;
+    font-weight: 500;
+}

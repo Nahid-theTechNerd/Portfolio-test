@@ -1,0 +1,21 @@
+.download__button{
+    background-color: white;
+}
+
+.download__button> a{
+    color: black;
+}
+
+.intro__section{
+    margin: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
